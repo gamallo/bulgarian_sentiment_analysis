@@ -31,13 +31,13 @@ while (my $line = <STDIN> ) {
     
      if ($lemma && $LEX{$lemma} && $LEX{$lemma} =~ /^POS/) {
 	$pos++;
-	#print STDERR "pos: $lemma\n";
-	print "pos:$lemma|";
+	print STDERR "pos: $lemma\n";
+#	print "pos:$lemma|";
     }  
     elsif ($lemma && $LEX{$lemma} && $LEX{$lemma} =~ /^NEG/) {
 	$neg++;
-	#print STDERR "neg: $lemma\n";
-	print "neg:$lemma|";
+	print STDERR "neg: $lemma\n";
+	#print "neg:$lemma|";
     }
     #$n++
 
