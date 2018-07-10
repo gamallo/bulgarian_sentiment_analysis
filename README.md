@@ -22,4 +22,4 @@ The two modules are connected by means of the following pipeline:
 ```./cmd/tree-tagger-bulgarian |./classif.perl ./resources/dico-bl.csv```
 
 ## Resources
-The system makes uses of a polarity lexicon, `dico-bl.csv`, with more than 2,000 lemmas, built by Velyana Patzova.
+The system makes uses of a polarity lexicon, `dico-bl.csv`, with more than 2,000 lemmas, built by Velyana Patsova.
